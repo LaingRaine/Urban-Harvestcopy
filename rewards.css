@@ -1,0 +1,232 @@
+/* Global reset to ensure consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* The reward section where we layout the content */
+  .reward-section {
+    display: flex;
+    justify-content: space-between; /* Aligns content on both sides */
+    align-items: top; /* Vertically centers the items */
+    gap: 10px; /* Creates space between left and right content */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left side content */
+  .reward-content {
+    max-width: 50%; /* Ensures text doesn't stretch too much */
+  }
+  
+  .reward-content h3{
+    color: green;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  .reward-content span{
+    color:green;
+  
+  }
+  .reward-content h1 {
+    font-size: 2.5em;
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 80px;
+
+  }
+  
+  .reward-content p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Right side image */
+  .reward-image img {
+    width: 60%;
+    height:auto;
+    margin-left: 100px;
+    max-width: 60%; /* Restricts image size */
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    /* On smaller screens, stack the content */
+    .reward-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    /* Adjust the text size for smaller screens */
+    .reward-content h1 {
+      font-size: 2em;
+    }
+  
+    .reward-content p {
+      font-size: 1em;
+      
+    }
+  
+    .reward-image img {
+      max-width: 90%; /* Image width becomes 90% on smaller screens */
+    }
+  }
+  
+
+  /*========================*/
+
+
+  /* Rewards Detail Section and Create an Account */
+
+  .rewards-details {
+    padding: 50px 0;
+    color: #555;
+  }
+  
+   .container {
+    max-width: 85%;
+  }
+
+  
+  /* Use Flexbox on .row to split the section into two columns */
+  .rewards-details .row {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+  }
+  
+  /* Left Column (Quick Points) */
+  .rewards-details .left-column {
+    flex: 1; /* This will make the left column take up equal space */
+    padding-right: 30px;
+  }
+  
+  .rewards-details h4 {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    color:green;
+    font-weight: 100;
+    padding-left: 100px;     
+  }
+  
+  .rewards-details ul li strong {
+    white-space: nowrap; /* Prevent wrapping inside the strong element */
+  
+  }
+  
+  .rewards-details ul li strong + span {
+    display: inline-block; /* Ensure following text stays on the same line */
+  }
+  
+  .rewards-details ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-left: 100px;
+    width:150%;
+    
+  }
+  .rewards-details ul li i {
+    margin-right: 10px; /* Add some space between the icon and the text */
+  }
+  
+  
+  .rewards-details ul li {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  display: flex; /* Using flexbox */
+  align-items: flex-start; /* Align the icon and text at the top */
+}
+  
+  /* Right Column (Login and Sign-Up) */
+  .rewards-details .right-column {
+    flex: 1; /* This will make the right column take up equal space */
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .right-column{
+    margin-left: 400px;
+    
+  }
+  
+  .rewards-details form {
+    margin-top: 20px;
+  }
+  
+  .rewards-details .form-group {
+    margin-bottom: 15px;
+    
+  }
+  
+  .rewards-details .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .rewards-details button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+  }
+  
+  .rewards-details .btn-primary {
+    background-color: green; /* Green color for login */
+    border: none;
+    color:white;
+  }
+  
+  .rewards-details .btn-secondary {
+/* For create account */
+    border:green 1px solid;
+  }
+  
+  .rewards-details .btn-primary:hover, .rewards-details .btn-secondary:hover {
+    opacity: 0.8;
+  }
+  
+  .rewards-details .forgot-password-link {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: #696969;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .rewards-details .forgot-password-link:hover {
+    text-decoration: underline;
+  }
+  
+  .rewards-details .create-account-btn {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  @media (max-width: 767px) {
+    .rewards-details .row {
+      flex-direction: column; /* Stack the columns vertically on smaller screens */
+    }
+  
+    .rewards-details .left-column,
+    .rewards-details .right-column {
+      margin-bottom: 20px;
+    }
+  }
+  
