@@ -1,0 +1,89 @@
+{
+  "produce": [
+    {
+      "name": "Potatoes Russet",
+      "price": 3.0,
+      "farm": "Fresh Farms",
+      "discount": 0.05,
+      "carbonCredit": 5,
+      "category": "Vegetables",
+      "image": "images/Potatoes_Russet.jpg",
+      "quantity": "5 lb"
+    },
+    {
+      "name": "Swiss Chard",
+      "price": 3.5,
+      "farm": "Leafy Greens Co.",
+      "discount": 0.2,
+      "carbonCredit": 3,
+      "category": "Vegetables",
+      "image": "images/Swiss_Chard.jpg",
+      "quantity": "1 bunch"
+    },
+    {
+      "name": "Carrots",
+      "price": 1.5,
+      "farm": "Fresh Roots Farm",
+      "discount": 0.05,
+      "carbonCredit": 3,
+      "category": "Vegetables",
+      "image": "images/Carrots.jpg",
+      "quantity": "1 bunch"
+    },
+
+    {
+      "name": "Onions- Green",
+      "price": 1.0,
+      "farm": "Root Harvest",
+      "discount": 0.1,
+      "carbonCredit": 2,
+      "category": "Vegetables",
+      "image": "images/Green_Onions.jpg",
+      "quantity": "1 bunch"
+    },
+
+    {
+      "name": "Parsnips",
+      "price": 3.2,
+      "farm": "Root Harvest",
+      "discount": 0.1,
+      "carbonCredit": 4,
+      "category": "Vegetables",
+      "image": "images/Parsnips.jpg",
+      "quantity": "1 bunch"
+    },
+
+    {
+      "name": "Mushrooms",
+      "price": 3.0,
+      "farm": "Shroomery",
+      "discount": 0.05,
+      "carbonCredit": 2,
+      "category": "Vegetables",
+      "image": "images/Mushrooms.jpg",
+      "quantity": "8 oz"
+    },
+
+    {
+      "name": "Mixed Peppers",
+      "price": 2.5,
+      "farm": "Green Valley",
+      "discount": 0.1,
+      "carbonCredit": 3,
+      "category": "Vegetables",
+      "image": "images/Pepper.jpg",
+      "quantity": "1 pepper"
+    },
+
+    {
+      "name": "Curated Box: Get Inspired",
+      "price": 22.0,
+      "farm": "Urban Harvest",
+      "discount": 0.1,
+      "carbonCredit": 8,
+      "category": "Curated Box",
+      "image": "images/Get_Inspired_Box.jpg",
+      "quantity": "1"
+    }
+  ]
+}

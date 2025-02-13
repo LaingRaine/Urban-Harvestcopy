@@ -1,0 +1,300 @@
+{
+    "produce": [
+      {
+        "name": "Tomato",
+        "price": 2.5,
+        "farm": "Green Valley ",
+        "discount": 0.1,
+        "carbonCredit": 5,
+        "category": "Vegetables",
+        "image": "images/Tomato.jpg",
+        "quantity": "5 lb"
+      },
+      {
+        "name": "Beets",
+        "price": 3.0,
+        "farm": "Root Harvest",
+        "discount": 0.15,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Beets.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Blueberries",
+        "price": 5.0,
+        "farm": "Berry Patch",
+        "discount": 0.05,
+        "carbonCredit": 3,
+        "category": "Fruits",
+        "image": "images/Blueberries.jpg",
+        "quantity": "1 pint"
+      },
+      {
+        "name": "Baby Salad Mix",
+        "price": 4.0,
+        "farm": "Leafy Greens Co.",
+        "discount": 0.1,
+        "carbonCredit": 2,
+        "category": "Vegetables",
+        "image": "images/Baby_Salad_Mix.jpg",
+        "quantity": "1 bag"
+      },
+      {
+        "name": "Blackberries",
+        "price": 1.8,
+        "farm": "Berry Patch",
+        "discount": 0.2,
+        "carbonCredit": 1,
+        "category": "Fruits",
+        "image": "images/Blackberries.jpg",
+        "quantity": "1 bulb"
+      },
+      {
+        "name": "Kale",
+        "price": 3.5,
+        "farm": "Green Valley",
+        "discount": 0.1,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Kale.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Apples",
+        "price": 2.2,
+        "farm": "Sunny Orchard",
+        "discount": 0.05,
+        "carbonCredit": 3,
+        "category": "Fruits",
+        "image": "images/Apples.jpg",
+        "quantity": "1 apple"
+      },
+      {
+        "name": "Lemons",
+        "price": 1.5,
+        "farm": "Citrus Grove",
+        "discount": 0.1,
+        "carbonCredit": 2,
+        "category": "Fruits",
+        "image": "images/Lemons.jpg",
+        "quantity": "1 lemon"
+      },
+      {
+        "name": "Limes",
+        "price": 1.4,
+        "farm": "Citrus Grove",
+        "discount": 0.1,
+        "carbonCredit": 2,
+        "category": "Fruits",
+        "image": "images/Limes.jpg",
+        "quantity": "1 lime"
+      },
+      {
+        "name": "Potatoes Russet",
+        "price": 3.0,
+        "farm": "Fresh Farms",
+        "discount": 0.05,
+        "carbonCredit": 5,
+        "category": "Vegetables",
+        "image": "images/Potatoes_Russet.jpg",
+        "quantity": "5 lb"
+      },
+      {
+        "name": "Swiss Chard",
+        "price": 3.5,
+        "farm": "Leafy Greens Co.",
+        "discount": 0.2,
+        "carbonCredit": 3,
+        "category": "Vegetables",
+        "image": "images/Swiss_Chard.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Carrots",
+        "price": 1.5,
+        "farm": "Fresh Roots Farm",
+        "discount": 0.05,
+        "carbonCredit": 3,
+        "category": "Vegetables",
+        "image": "images/Carrots.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Broccoli",
+        "price": 2.0,
+        "farm": "Green Valley",
+        "discount": 0.1,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Broccoli.jpg",
+        "quantity": "1 stalk"
+      },
+      {
+        "name": "Cucumber",
+        "price": 1.2,
+        "farm": "Fresh Farms",
+        "discount": 0.1,
+        "carbonCredit": 3,
+        "category": "Vegetables",
+        "image": "images/Cucumber.jpg",
+        "quantity": "1 cucumber"
+      },
+      {
+        "name": "Onions- Green",
+        "price": 1.0,
+        "farm": "Root Harvest",
+        "discount": 0.1,
+        "carbonCredit": 2,
+        "category": "Vegetables",
+        "image": "images/Green_Onions.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Onions",
+        "price": 2.0,
+        "farm": "Green Valley",
+        "discount": 0.05,
+        "carbonCredit": 3,
+        "category": "Vegetables",
+        "image": "images/Onions.jpg",
+        "quantity": "1 onion"
+      },
+      {
+        "name": "Parsnips",
+        "price": 3.2,
+        "farm": "Root Harvest",
+        "discount": 0.1,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Parsnips.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Cabbage",
+        "price": 2.0,
+        "farm": "Fresh Farms",
+        "discount": 0.1,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Cabbage.jpg",
+        "quantity": "1 head"
+      },
+      {
+        "name": "Zucchini",
+        "price": 1.8,
+        "farm": "Green Valley",
+        "discount": 0.1,
+        "carbonCredit": 3,
+        "category": "Vegetables",
+        "image": "images/Zucchini.jpg",
+        "quantity": "1 zucchini"
+      },
+      {
+        "name": "Scotch Bonnet",
+        "price": 4.0,
+        "farm": "Root Harvest",
+        "discount": 0.1,
+        "carbonCredit": 5,
+        "category": "Vegetables",
+        "image": "images/Scotch_Bonnet.jpg",
+        "quantity": "1 lb"
+      },
+      {
+        "name": "Mushrooms",
+        "price": 3.0,
+        "farm": "Shroomery",
+        "discount": 0.05,
+        "carbonCredit": 2,
+        "category": "Vegetables",
+        "image": "images/Mushrooms.jpg",
+        "quantity": "8 oz"
+      },
+      {
+        "name": "Cilantro",
+        "price": 1.5,
+        "farm": "Herb Farm",
+        "discount": 0.1,
+        "carbonCredit": 1,
+        "category": "Vegetables",
+        "image": "images/Cilantro.jpg",
+        "quantity": "1 bunch"
+      },
+      {
+        "name": "Potatoes - Red",
+        "price": 2.8,
+        "farm": "Fresh Farms",
+        "discount": 0.05,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Potatoes_Red.jpg",
+        "quantity": "5 lb"
+      },
+      {
+        "name": "Potatoes - Yellow",
+        "price": 3.0,
+        "farm": "Fresh Farms",
+        "discount": 0.05,
+        "carbonCredit": 4,
+        "category": "Vegetables",
+        "image": "images/Potatoes_Yellow.jpg",
+        "quantity": "5 lb"
+      },
+     
+      {
+        "name": "Mixed Peppers",
+        "price": 2.5,
+        "farm": "Green Valley",
+        "discount": 0.1,
+        "carbonCredit": 3,
+        "category": "Vegetables",
+        "image": "images/Pepper.jpg",
+        "quantity": "1 pepper"
+      },
+  
+      {
+        "name": "Curated Box: All Seasons",
+        "price": 25.0,
+        "farm": "Urban Harvest",
+        "discount": 0.1,
+        "carbonCredit": 10,
+        "category": "Curated Box",
+        "image": "images/All_Seasons_Box.jpg",
+        "quantity": "1"
+      },
+      {
+        "name": "Curated Box: Spring Fling",
+        "price": 22.0,
+        "farm": "Urban Harvest",
+        "discount": 0.1,
+        "carbonCredit": 8,
+        "category": "Curated Box",
+        "image": "images/Spring_Box.jpg",
+        "quantity": "1"
+      },
+
+      {
+        "name": "Curated Box: Taco Tuesdays",
+        "price": 22.0,
+        "farm": "Urban Harvest",
+        "discount": 0.1,
+        "carbonCredit": 8,
+        "category": "Curated Box",
+        "image": "images/Taco_Tuesday_Box.jpg",
+        "quantity": "1"
+      },
+
+      {
+        "name": "Curated Box: Get Inspired",
+        "price": 22.0,
+        "farm": "Urban Harvest",
+        "discount": 0.1,
+        "carbonCredit": 8,
+        "category": "Curated Box",
+        "image": "images/Get_Inspired_Box.jpg",
+        "quantity": "1"
+      }
+
+    ]
+  }
+  
