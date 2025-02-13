@@ -1,0 +1,187 @@
+/* CSS for produce page*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ensures that the width/height of elements includes padding and borders */
+}
+
+/* Set a consistent font: Need to get from style guide */
+body {
+  font-family: Arial, sans-serif; /* A clean, generic font */
+  line-height: 1.6; /* Add line-height for better readability */
+  background-color: #fff; /* Optional, set a default background color */
+}
+
+/* Set box-sizing to border-box by default for all elements */
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased; /* Smooth font rendering on webkit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smooth font rendering for Firefox on macOS */
+}
+
+/* Reset default margin and padding for sections, headers, etc. */
+section, article, aside, nav, header, footer {
+  padding: 0;
+  margin: 0;
+  display: block; /* Ensures they are block elements */
+}
+
+/* For a simple, consistent style for headings: need to get from style guide */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; /* Remove default bolding */
+  margin: 0;
+}
+
+/* Ensure that the container holds products in a grid-like fashion */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Card style for each product */
+.card {
+  margin: 15px;
+  height: 32em;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  max-width: 200px; /* Limit the card's max width */
+  width: 100%; /* Ensure the card takes up full width within the row */
+  box-sizing: border-box; /* Ensure padding and borders are included in width */
+}
+
+/* Card image should have a consistent size */
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Maintain aspect ratio of the images */
+}
+
+
+/* Flexbox properties for responsive cards */
+@media (min-width: 768px) {
+  .card {
+    flex: 0 0 30%; /* 3 cards per row on medium screens and above */
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 48%; /* 2 cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 575px) {
+  .card {
+    flex: 0 0 100%; /* 1 card per row on very small screens */
+  }
+}
+
+/* Category section style */
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-section h2 {
+  font-size: 2em;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Styling for the product card elements */
+.produce-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.produce-card h4 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.card-text, .card-title{
+    text-align: start;
+}
+.produce-card p {
+  color: #737171;
+
+}
+.card-body{
+    line-height: .8em;
+}
+
+.produce-price {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: start;
+  line-height: .7em;
+}
+
+.produce-discount,
+.produce-carbon-credit {
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Styling for the form control (quantity input) */
+.produce-card .form-control {
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-self: center;
+}
+
+/* Styling for the filter input */
+#filter {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+/* Styling for the "Add to Cart" button */
+.add-to-cart-btn {
+  padding: 10px 20px;
+  background-color: #013e0f; /* Green color for the button */
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.1s ease, width 0.1s ease;
+  width: 40%;
+  margin-top: 10px;
+  display: block;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis; /* Ensure text fits */
+  white-space: nowrap; /* Prevent text from wrapping */
+  top: -430px;
+  left: 75px;
+  z-index:1;
+  
+}
+
+  
+  /* Hover effect: change the button text */
+  .add-to-cart-btn:hover {
+    background-color: #218838; /* Darker green when hovered */
+    width: 85%;
+   
+  }
+  
+  
+  
+ 
+  
